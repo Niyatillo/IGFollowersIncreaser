@@ -105,7 +105,7 @@ except ImportError or ModuleNotFoundError:
     elif platform.system() == 'Windows':
         system("pip install -r requirements.txt")
 
-init(autoreset=True)
+int(autoreset=True)
 RED = Fore.RED
 GREEN = Fore.GREEN
 YELLOW = Fore.YELLOW
